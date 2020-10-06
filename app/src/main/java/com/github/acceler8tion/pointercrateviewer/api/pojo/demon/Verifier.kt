@@ -1,4 +1,4 @@
-package com.github.acceler8tion.pointercrateviewer.api.pojo
+package com.github.acceler8tion.pointercrateviewer.api.pojo.demon
 
 data class Verifier (
 	val banned : Boolean,

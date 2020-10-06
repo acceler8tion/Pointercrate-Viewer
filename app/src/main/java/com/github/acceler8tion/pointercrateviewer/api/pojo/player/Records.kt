@@ -1,8 +1,8 @@
-package com.github.acceler8tion.pointercrateviewer.api.pojo
+package com.github.acceler8tion.pointercrateviewer.api.pojo.player
 
 data class Records (
+	val demon : Demon,
 	val id : Int,
-	val player : Player,
 	val progress : Int,
 	val status : String,
 	val video : String
