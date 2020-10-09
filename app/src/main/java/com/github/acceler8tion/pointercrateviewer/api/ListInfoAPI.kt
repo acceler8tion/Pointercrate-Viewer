@@ -1,6 +1,6 @@
 package com.github.acceler8tion.pointercrateviewer.api
 
-import com.github.acceler8tion.pointercrateviewer.api.pojo.demon.ListInformation
+import com.github.acceler8tion.pointercrateviewer.pojo.demon.ListInformation
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
