@@ -1,4 +1,4 @@
-package com.github.acceler8tion.pointercrateviewer.api.pojo.player
+package com.github.acceler8tion.pointercrateviewer.pojo.player
 
 data class Data (
     val banned : Boolean,

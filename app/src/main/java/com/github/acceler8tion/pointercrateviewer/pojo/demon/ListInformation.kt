@@ -1,4 +1,4 @@
-package com.github.acceler8tion.pointercrateviewer.api.pojo.demon
+package com.github.acceler8tion.pointercrateviewer.pojo.demon
 
 data class ListInformation (
 	val extended_list_size : Int,
