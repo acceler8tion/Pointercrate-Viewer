@@ -6,10 +6,11 @@
 ## Pull Request 넣을때 주의사항
 
 - **제목**은 반드시 [`$NEXT_VERSION`] `$PREVIEW_DESC...` 형식으로 작성, 가능하면 한글사용 ㄴㄴ
+- **주의!** [Prepare `$NEXT_VERSION`]가 아닌 [`$NEXT_VERSION`]. Prepare 넣지말것
 
 > 예시:
 >
-> [1.0.0] Added recyclerview, Fixed NullPointerException (Issue: #214)
+> [1.0.0] Added recyclerview, Fixed NullPointerException (Issue: #214) //이슈는 해당이슈가 이슈페이지에 있을때만 쓸것
 
 </br>
 
