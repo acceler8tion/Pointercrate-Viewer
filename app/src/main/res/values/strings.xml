@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Pointercrate Viewer</string>
+    <string name="thumbnail_desc">Youtube Video Thumbnail</string>
+    <string name="playbtn_desc">Unplayable Button</string>
 </resources>
