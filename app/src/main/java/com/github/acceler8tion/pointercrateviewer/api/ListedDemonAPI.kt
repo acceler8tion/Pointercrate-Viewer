@@ -43,12 +43,12 @@ interface ListedDemonAPI {
     companion object {
         private const val BASE_URL = "https://www.pointercrate.com/"
 
-        fun create(): ListInfoAPI {
+        fun create(): ListedDemonAPI {
             return Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
-                .create(ListInfoAPI::class.java)
+                .create(ListedDemonAPI::class.java)
         }
     }
 }
