@@ -4,8 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.*
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,8 +12,8 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         val intent = Intent(this, MainActivity::class.java)
-        lifecycleScope.launch {
-            delay(100L)
+        CoroutineScope(Dispatchers.Unconfined).launch {
+            delay(200L)
             startActivity(intent)
             finish()
         }
