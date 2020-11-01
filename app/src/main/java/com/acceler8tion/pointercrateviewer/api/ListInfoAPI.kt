@@ -1,6 +1,6 @@
-package com.github.acceler8tion.pointercrateviewer.api
+package com.acceler8tion.pointercrateviewer.api
 
-import com.github.acceler8tion.pointercrateviewer.pojo.demon.ListInformation
+import com.acceler8tion.pointercrateviewer.pojo.ListInformation
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -16,6 +16,7 @@ interface ListInfoAPI {
     ): Call<ListInformation>
 
     companion object {
+
         private const val BASE_URL = "https://www.pointercrate.com/"
 
         fun create() : ListInfoAPI {

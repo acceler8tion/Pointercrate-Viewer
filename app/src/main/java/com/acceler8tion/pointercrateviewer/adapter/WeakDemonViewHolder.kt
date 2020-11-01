@@ -1,4 +1,4 @@
-package com.github.acceler8tion.pointercrateviewer.adapter
+package com.acceler8tion.pointercrateviewer.adapter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

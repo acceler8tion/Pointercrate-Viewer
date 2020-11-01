@@ -1,4 +1,4 @@
-package com.github.acceler8tion.pointercrateviewer.pojo.demon
+package com.acceler8tion.pointercrateviewer.pojo.demon
 
 data class ListedDemonData (
     val id : Int,

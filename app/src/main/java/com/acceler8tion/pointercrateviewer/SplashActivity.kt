@@ -1,9 +1,8 @@
-package com.github.acceler8tion.pointercrateviewer
+package com.acceler8tion.pointercrateviewer
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.*
 
 class SplashActivity : AppCompatActivity() {
