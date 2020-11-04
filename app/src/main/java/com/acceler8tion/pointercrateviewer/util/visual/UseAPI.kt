@@ -7,6 +7,7 @@ annotation class UseAPI(val type: APIType) {
     enum class APIType() {
         DEMON,
         PLAYER,
-        METADATA
+        METADATA,
+        THUMBNAIL
     }
 }
