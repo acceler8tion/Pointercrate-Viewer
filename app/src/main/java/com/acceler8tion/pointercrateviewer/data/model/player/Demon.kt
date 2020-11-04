@@ -1,4 +1,4 @@
-package com.acceler8tion.pointercrateviewer.pojo.player
+package com.acceler8tion.pointercrateviewer.data.model.player
 
 data class Demon (
 	val id : Int,

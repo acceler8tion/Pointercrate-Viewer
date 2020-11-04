@@ -1,4 +1,4 @@
-package com.acceler8tion.pointercrateviewer.pojo.demon
+package com.acceler8tion.pointercrateviewer.data.model.demon
 
 data class Data (
     val creators : List<Creators>,
